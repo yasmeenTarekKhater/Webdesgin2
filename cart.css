@@ -1,0 +1,86 @@
+.cart-table-items img{
+width: 140px;
+}
+.cart-table-items{
+    border: 1px solid rgb(212, 199, 199);
+    border-collapse: collapse;
+    border-spacing: 50px;
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+}
+.cart-table-items tr,td,th{
+    border: 1px solid rgb(212, 199, 199);
+    padding: 20px;
+}
+.cart-table-items td{
+    color: gray;
+}
+.cart-table-items tr:hover{
+background-color: rgb(221, 229, 245);
+}
+.cart-table-items td .Qtn{
+margin: 0 auto;
+text-align: center;
+}
+.cart-table-items .remove-btn{
+    padding: 10px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 10px;
+    transition: .5s;
+    cursor: pointer;
+}
+.cart-table-items .remove-btn:hover{
+    transform: scale(1.1);
+    color: white;
+}
+/* ----------------------------end of table--------------------------- */
+.checkout{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.checkout  button{
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+.update-btn{
+    background-color: blueviolet;
+    color: white;
+    margin-right: 10px;
+    margin-top: 20px;
+    transition: .5s;
+    box-shadow: 3px 3px 5px rgb(161, 157, 157);
+}
+.update-btn:hover{
+    transform: translateY(10px) scale(1.1);
+}
+.checkout .checkout-left .continue-btn{
+    border: 1px solid blueviolet;
+    background-color: white;
+    color: blueviolet;
+}
+.checkout .checkout-left p{
+    color: gray;
+    margin: 10px 0;
+}
+.checkout .checkout-left input{
+    padding: 6px 10px;
+}
+.checkout-right{
+    padding: 20px 30px;
+    width: 350px;
+}
+.checkout-right h2{
+    text-align: right;
+    margin-bottom: 10px;
+}
+.checkout-right .checkout-right-totals{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+}

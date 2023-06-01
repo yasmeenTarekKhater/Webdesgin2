@@ -1,0 +1,43 @@
+.price{
+    text-align: left;
+    color: blueviolet;
+}
+.t-shirt-size,.Qtn{
+    text-align: left;
+    margin-top: 20px;
+}
+.t-shirt-size label{
+    margin-right: 10px;
+}
+.quantity{
+    display: inline;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+.min,.max,.quantity{
+padding: 10px;
+}
+.Qtn button{
+    transition: .5s;
+    border-radius: 4px;
+    border: none;
+}
+.Qtn button:hover{
+    background-color: blueviolet;
+    padding: 12px;
+    color: white;
+    border: none;
+    transform: scale(1.2);
+}
+.Add{
+    margin-right: 74%;
+    padding: 10px 20px;
+    margin-top: 30px;
+    transition: 1s;
+}
+.Add:hover{
+    transform: scale(1.2) rotateX(360deg);
+    background-color: rgb(109, 6, 206);
+    border:none;
+    box-shadow: 3px 3px 5px rgb(163, 152, 152);
+}

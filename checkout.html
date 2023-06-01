@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="checkout.css">
+    <script src="https://kit.fontawesome.com/253b27cc50.js" crossorigin="anonymous"></script>
+    <title>My Shop</title>
+</head>
+<body>
+    <section class="web-name">
+        <div class="left-web-name">
+            <i class="fa-solid fa-magnifying-glass fa-bounce"></i>
+            <input type="text" name="search" placeholder="search">
+        </div>
+        <div class="center-web-name">
+            <h4>Yasmeen Tarek</h4>
+        </div>
+        <div class="right-web-name">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart">
+                <div class="cart-number">1</div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </section>
+    <nav class="my-nav">
+        <ul>
+            <li>
+            <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a>CATALOGUE</a></li>
+            <li><a>NEW ARRIVALS</a></li>
+            <li><a>CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="about-link">
+        <a href="index.html">Home /</a>
+        <a href="cart.html" >Cart /</a>
+        <a href="checkout.html">Checkout</a>
+    </div>
+    <section class="checkout-form">
+    <div class="login">
+        <p>Returning customer? <span>Clicl here</span> to login</p>
+    </div>
+    <div class="checkout-info">
+        <div class="checkout-info-left">
+            <h3>Billing Details</h3>
+            <form action="" method="get">
+                <label for="country">Country<span>*</span></label><br>
+                <select name="country" id="country">
+                    <option value="Egypt">Egypt</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Egypt">Egypt</option>
+                    <option value="Egypt">Egypt</option>
+                </select>
+                <div class="form-name">
+                    <div class="form-name-l">
+                        <label for="f-name">Frist Name<span>*</span></label><br>
+                        <input type="text" name="fristname">
+                    </div>
+                    <div>
+                        <label for="l-name">Last Name<span>*</span></label><br>
+                        <input type="text" name="lastname">
+                    </div>
+                </div>
+                <label for="company">Company Name</label><br>
+                <input type="text" name="company name"><br>
+                <label for="address">Address<span>*</span></label><br>
+                <input type="text" name="adress" placeholder="Street address"><br>
+                <input type="text" name="adress" placeholder="Apartment,suite,uint,etc.(optional)">
+                <div class="form-name">
+                    <div class="form-name-l">
+                        <label for="State">State/Country<span>*</span></label><br>
+                        <input type="text" name="State">
+                    </div>
+                    <div>
+                        <label for="Posta">Posta /Zip<span>*</span></label><br>
+                        <input type="text" name="Posta">
+                    </div>
+                </div>
+                <div class="form-name">
+                    <div class="form-name-l">
+                        <label for="Email">Email Address<span>*</span></label><br>
+                        <input type="text" name="Email">
+                    </div>
+                    <div>
+                        <label for="Phone">Phone<span>*</span></label><br>
+                        <input type="text" name="Phone">
+                    </div>
+                </div>
+                <input type="checkbox" name="account" id="account">
+                <label for="account">Create an Account</label><br>
+                <input type="checkbox" name="shipaddress" id="shipaddress">
+                <label for="shipaddress">Ship To A Diffrenr Address?</label><br>
+                <label for="note">Order Notes</label><br><br>
+                <textarea name="note" id="note" cols="30" rows="5" placeholder="Write your notes here..."></textarea>
+            </form>
+        </div>
+        <div class="checkout-info-right">
+            <h3>Coupon Code</h3>
+            <div class="checkout-info-right-copon">
+                <h3>Coupon</h3>
+                <p>Enter your copon if you have one.</p>
+                <input type="text" placeholder="Copon Code">
+                <button class="update-btn">APPLY COUPON</button>
+            </div>
+            <h3>Your Order</h3>
+            <div class="your-order">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Total</th>
+                </tr>
+                <tr>
+                    <td>Top Up T-shirt x 1</td>
+                    <td>$2300</td>
+                </tr>
+                <tr>
+                    <td>Top Up T-shirt x 1</td>
+                    <td>$2300</td>
+                </tr>
+                <tr>
+                    <td>Top Up T-shirt x 1</td>
+                    <td>$2300</td>
+                </tr>
+                <tr>
+                    <td>Top Up T-shirt x 1</td>
+                    <td>$2300</td>
+                </tr>
+            </table>
+            <input type="button" value="Direct Bank Transfer"><br>
+            <input type="button" value="Cheque Payment "><br>
+            <input type="button" value="Paypal"><br>
+            <button><a href="completeorder.html" style="color: white;">Place Order</a></button>
+            </div>
+        </div>
+    </div>
+    </section>
+    <footer class="my-footer">
+        <div class="footer-first">
+        <h3>Navigations</h3>
+        <ul>
+            <li><a>Sell online</a></li>
+            <li><a>Features</a></li>
+            <li><a>Shopping Cart</a></li>
+            <li><a>Store builder</a></li>
+        </ul>
+        </div>
+        <div class="footer-second">
+        <ul>
+            <li>Mobile Commerce</li>
+            <li>Mobile Commerce</li>
+            <li>Mobile Commerce</li>
+        </ul>
+        <ul>
+            <li>Point of sale</li>
+            <li>Point of sale</li>
+            <li>Point of sale</li>
+        </ul>
+        </div>
+        <div class="footer-third">
+        <h3>Promo</h3>
+        <img src="images/hero_1.jpg" alt="">
+        <h5>Finding Your Perfect Shoes</h5>
+        <p>Promo from nuary 15--25,2023</p>
+        </div>
+        <div class="footer-fourth">
+        <h3>Contact info </h3>
+        <div class="info">
+            <i class="fa-solid fa-location-dot fa-flip"></i>
+            <p>New Damitta,Damitta,Egypt </p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-phone"></i>
+            <p>+20 101156787 </p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>yasmeentarek11@gimail.com </p>
+        </div>
+        <form action="" method="get">
+            <label for="email">Subscribe</label>
+            <input type="email" name="email" class="em" placeholder="Email">
+            <input type="submit" value="SEND" class="su">
+        </form>
+        </div>
+    </footer>
+    <p class="copy-right">Copyright &copy 2023 All rights reversed |This templete is made with <i class="fa-solid fa-heart fa-flip"></i> by <span>Yameen Tarek</span></p>
+</body>
+</html>

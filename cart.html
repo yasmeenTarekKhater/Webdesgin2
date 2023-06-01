@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="productDetails.css">
+    <link rel="stylesheet" href="cart.css">
+    <script src="https://kit.fontawesome.com/253b27cc50.js" crossorigin="anonymous"></script>
+    <title>My Shop</title>
+</head>
+<body>
+    <section class="web-name">
+        <div class="left-web-name">
+            <i class="fa-solid fa-magnifying-glass fa-bounce"></i>
+            <input type="text" name="search" placeholder="search">
+        </div>
+        <div class="center-web-name">
+            <h4>Yasmeen Tarek</h4>
+        </div>
+        <div class="right-web-name">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-regular fa-heart"></i>
+            <div class="cart">
+                <div class="cart-number">1</div>
+                <i class="fa-solid fa-cart-shopping"></i>
+            </div>
+        </div>
+    </section>
+    <nav class="my-nav">
+        <ul>
+            <li>
+            <a href="index.html">HOME</a>
+            </li>
+            <li>
+                <a href="about.html">ABOUT</a>
+            </li>
+            <li><a href="shop.html">SHOP</a></li>
+            <li><a>CATALOGUE</a></li>
+            <li><a>NEW ARRIVALS</a></li>
+            <li><a>CONTACT</a></li>
+        </ul>
+    </nav>
+    <div class="about-link">
+        <a href="index.html">Home /</a>
+        <a href="cart.html">Cart</a>
+    </div>
+    <section class="cart-table">
+        <table class="cart-table-items">
+            <tr>
+                <th>Image</th>
+                <th>Product</th>
+                <th>Price</th>
+                <th>Quantity</th>
+                <th>Total</th>
+                <th>Remove</th>
+            </tr>
+            <tr>
+                <td><img src="images/cloth_1.jpg" alt="product" ></td>
+                <td>Top Up T-shirt</td>
+                <td>$56</td>
+                <td>
+                    <div class="Qtn">
+                    <button class="min">-</button>
+                    <div class="quantity">1</div>
+                    <button class="max">+</button>
+                    </div>
+                </td>
+                <td>$59</td>
+                <td>
+                    <button class="remove-btn">X</button>
+                </td>
+            </tr>
+            <tr>
+                <td><img src="images/cloth_3.jpg" alt="product" ></td>
+                <td>T-shirt</td>
+                <td>$56</td>
+                <td>
+                    <div class="Qtn">
+                    <button class="min">-</button>
+                    <div class="quantity">3</div>
+                    <button class="max">+</button>
+                    </div>
+                </td>
+                <td>$59</td>
+                <td>
+                    <button class="remove-btn">X</button>
+                </td>
+            </tr>
+        </table>
+    </section>
+    <section class="checkout">
+    <div class="checkout-left">
+    <button class="update-btn">UPDATE CART</button>
+    <button class="continue-btn">CONTINUE SHOPPING</button>
+    <div>
+        <h3>Coupon</h3>
+        <p>Enter your copon if you have one.</p>
+        <input type="text" placeholder="Copon Code">
+        <button class="update-btn">APPLY COUPON</button>
+    </div>
+    </div>
+    <div class="checkout-right">
+    <h2>CART TOTALS</h2>
+    <hr>
+    <div class="checkout-right-totals">
+    <div>
+        <p>SubTotal</p>
+        <p>Total</p>
+    </div>
+    <div>
+        <p>$230.00</p>
+        <p>$230.00</p>
+    </div>
+    </div>
+    <button class="update-btn" ><a href="checkout.html"style="color: white;">PROCEED TO CHECKOUT</a></button>
+    </div>
+    </section>
+    <footer class="my-footer">
+        <div class="footer-first">
+        <h3>Navigations</h3>
+        <ul>
+            <li><a>Sell online</a></li>
+            <li><a>Features</a></li>
+            <li><a>Shopping Cart</a></li>
+            <li><a>Store builder</a></li>
+        </ul>
+        </div>
+        <div class="footer-second">
+        <ul>
+            <li>Mobile Commerce</li>
+            <li>Mobile Commerce</li>
+            <li>Mobile Commerce</li>
+        </ul>
+        <ul>
+            <li>Point of sale</li>
+            <li>Point of sale</li>
+            <li>Point of sale</li>
+        </ul>
+        </div>
+        <div class="footer-third">
+        <h3>Promo</h3>
+        <img src="images/hero_1.jpg" alt="">
+        <h5>Finding Your Perfect Shoes</h5>
+        <p>Promo from nuary 15--25,2023</p>
+        </div>
+        <div class="footer-fourth">
+        <h3>Contact info </h3>
+        <div class="info">
+            <i class="fa-solid fa-location-dot fa-flip"></i>
+            <p>New Damitta,Damitta,Egypt </p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-phone"></i>
+            <p>+20 101156787 </p>
+        </div>
+        <div class="info">
+            <i class="fa-solid fa-envelope"></i>
+            <p>yasmeentarek11@gimail.com </p>
+        </div>
+        <form action="" method="get">
+            <label for="email">Subscribe</label>
+            <input type="email" name="email" class="em" placeholder="Email">
+            <input type="submit" value="SEND" class="su">
+        </form>
+        </div>
+    </footer>
+    <p class="copy-right">Copyright &copy 2023 All rights reversed |This templete is made with <i class="fa-solid fa-heart fa-flip"></i> by <span>Yameen Tarek</span></p>
+</body>
+</html>

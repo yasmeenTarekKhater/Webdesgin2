@@ -1,0 +1,103 @@
+.checkout-form .login{
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 5px;
+    padding: 15px 50px;
+    width: 76%;
+    margin: 0 auto;
+}
+.checkout-form .login p{
+    color: gray;
+}
+.checkout-form .login p span{
+    color: blueviolet;
+    cursor: pointer;
+}
+.checkout-info{
+    display: flex;
+    justify-content: space-evenly;
+    width: 85%;
+    margin: 0 auto;
+}
+.form-name{
+    display: flex;
+    padding-right: 20px;
+}
+.form-name .form-name-l{
+    margin-right: 10px;
+}
+.checkout-info-left ,.checkout-info-right h3{
+    margin: 25px 0px;
+}
+
+.checkout-info-left form{
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 5px;
+    padding: 25px;
+    margin-top: 24px;
+}
+.checkout-info-left form span{
+    color: red;
+    margin-left: 4px;
+}
+.checkout-info-left form input,select{
+    margin: 10px 0px;
+    border: 1px solid rgb(201, 196, 196);
+    border-radius: 3px;
+    padding: 8px 33px;
+}
+.checkout-info-left form textarea{
+padding: 10px;
+}
+.checkout-info-right-copon,.your-order{
+    border: 1px solid rgb(201, 196, 196);
+    padding: 10px 40px 30px;
+    border-radius: 5px;
+}
+.checkout-info-right-copon p{
+    margin-bottom: 10px;
+    color: gray;
+}
+.checkout-info-right-copon input,button{
+    padding: 5px 10px;
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+}
+.checkout-info-right-copon button{
+    background-color: blueviolet;
+    color: white;
+    cursor: pointer;
+}
+.your-order table{
+    width: 100%;
+    text-align: left;
+    border-collapse: collapse;
+    margin: 20px 0px;
+}
+.your-order table td,th{
+    padding: 10px 0;
+    border-bottom: 1px solid gray;
+}
+.your-order input{
+    border: none;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 5px 0px;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    background-color: white;
+    cursor: pointer;
+}
+.your-order input:hover{
+    background-color: rgb(212, 168, 241);
+    color: white;
+}
+.your-order button{
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+}
+.your-order button:hover{
+    background-color: rgb(212, 168, 241);
+}

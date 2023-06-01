@@ -1,0 +1,88 @@
+.about-link{
+    background-color: rgba(227, 238, 224, 0.74);
+    padding: 20px 110px;
+    margin-bottom: 70px;
+}
+.about-link a:first-of-type{
+    color: purple !important;
+}
+.about-link a:last-of-type{
+color: black;
+}
+.how-star-line{
+    width: 50px;
+    height: 4px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: blueviolet;
+}
+.how-start{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 80px;
+}
+.how-start-heading h1{
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+}
+.how-start-heading p{
+    text-align: justify;
+}
+/* ------------------end of how to start section---------------- */
+.our-team{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding-bottom: 30px;
+    box-shadow: 8px 5px 9px rgb(236, 193, 231);
+}
+.team{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 60px;
+}
+.our-team-top{
+    width: 100%;
+    text-align: center;
+}
+.our-team-top div{
+width: 70px;
+height: 5px;
+background-color: blueviolet;
+border-radius: 30px;
+margin: 10px auto;
+}
+.try{
+display: flex;
+align-items: center;
+justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    border-radius:100%;
+    box-shadow: -5px -5px 9px #ffffff73,5px 5px 7px #5e687949;
+    transition: 1.5s;
+}
+.team .team-person img{
+width: 130px;
+height: 130px;
+border-radius:100%;
+
+}
+.team .team-person .try:hover{
+    transform: rotateY(360deg);
+}
+.team .team-person h2{
+    margin: 10px 2px;
+    color: blueviolet;
+}
+.team .team-person h5{
+    color: gray;
+    margin-bottom: 10px;
+}
+.team .team-person p{
+    color: rgb(73, 71, 71);
+    width: 70%;
+    margin: 0 auto;
+}
